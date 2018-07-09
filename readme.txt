@@ -1,6 +1,6 @@
 === WP Login Theme ===
 Contributors: Bhupender Singh
-Tags: logo, background, widget, login, registration, theme, custom, log in, register, sidebar, gravatar, redirection, e-mail, design, wp-login, wp-admin
+Tags: theme, custom, wp-login, wp-admin, design, log in, register, logo, background, widget, login, registration, theme, custom, log in, register, design 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 4.6

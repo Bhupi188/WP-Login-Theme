@@ -1,0 +1,131 @@
+/*
+=== WP Login Theme ===
+Contributors: Bhupender Singh
+Tags: logo, background, widget, login, registration, theme, custom, log in, register, sidebar, gravatar, redirection, e-mail, design, wp-login, wp-admin
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Requires at least: 4.6
+Tested up to: 4.9
+Stable tag: 1.0.0
+*/
+
+body {
+	background: url(../img/login-bg-four.jpg) no-repeat top center;
+}
+.login h1 a {
+	background: url(../img/logo-four.png) no-repeat top center;
+	/* make sure to replace this! */
+	width: 400px;
+	height: 92px;
+	text-indent: -9999px;
+	overflow: hidden;
+	padding-bottom:0px;
+	display: block;
+}
+a:focus {
+    color: #124964;
+    box-shadow:none;
+}
+form {
+	margin-left: 8px;
+	padding: 26px 24px 46px;
+	font-weight: normal;
+	background: white;
+	border: 1px solid #E5E5E5;
+	border-radius: 3px;
+	box-shadow: none;
+}
+
+#login {
+    width: 407px;
+    background: rgba(128, 44, 97, 0.4);
+    padding: 18px;
+    margin: 0% auto 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+}
+.login form {
+    background: none;
+    box-shadow: none;
+    border: none;
+		    border-bottom: 1px #dc8152 solid;
+}
+.login label {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin: 0;
+}
+body form .input {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	font-weight: 200;
+	font-size: 24px;
+	width: 97%;
+	padding: 3px;
+	margin-top: 2px;
+	margin-right: 6px;
+	margin-bottom: 16px;
+	border: 1px solid #E5E5E5;
+	background: #FBFBFB;
+	outline: none;
+	box-shadow: inset 1px 1px 2px rgba(200, 200, 200, 0.2);
+}
+.login #backtoblog a, .login #nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    letter-spacing: 1px;
+		outline: none;
+}
+
+.login #backtoblog a:focus, .login #nav a:focus{
+	box-shadow: none;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover{
+	color: #fff;
+}
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+    height: 54px;
+    line-height: 28px;
+    padding: 0 25px 6px;
+    font-size: 22px;
+    float: none;
+    margin: 20px auto 0;
+		background: rgba(255, 255, 255, 0.3);
+		border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large:hover{
+	background: #762a5d;
+	color: #fff;
+}
+
+.login form .forgetmenot {
+    float: none;
+}
+
+.login form .input, .login input[type=text] {
+    font-size: 24px;
+    width: 100%;
+    padding: 12px 10px;
+    margin: 2px 6px 16px 0;
+    border-radius: 3px;
+		background: rgba(255, 255, 255, 0.3);
+		border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+	   background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+input[type=checkbox]:checked:before {
+    color: #762a5d;
+}

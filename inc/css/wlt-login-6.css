@@ -1,0 +1,189 @@
+/*
+=== WP Login Theme ===
+Contributors: Bhupender Singh
+Tags: logo, background, widget, login, registration, theme, custom, log in, register, sidebar, gravatar, redirection, e-mail, design, wp-login, wp-admin
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Requires at least: 4.6
+Tested up to: 4.9
+Stable tag: 1.0.0
+*/
+
+body {
+	background: url(../img/login-bg-six.jpg) no-repeat top center;
+	background-size: cover;
+}
+.login h1 a {
+	background: url(../img/logo-three.png) no-repeat top center;
+	/* make sure to replace this! */
+	width: 200px;
+	height: 150px;
+	text-indent: -9999px;
+	overflow: hidden;
+	padding-bottom:0px;
+	display: block;
+}
+a:focus {
+    color: #124964;
+    box-shadow:none;
+}
+form {
+	margin-left: 8px;
+	padding: 26px 24px 46px;
+	font-weight: normal;
+	background: white;
+	border: 1px solid #E5E5E5;
+	border-radius: 3px;
+	box-shadow: none;
+}
+
+#login {
+    width: 407px;
+    padding: 18px;
+    margin: 0% auto 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	right:12%;
+	float: right;
+}
+.login form {
+    background: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px #00aeef solid;
+}
+.login label {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin: 0;
+}
+body form .input {
+	font-weight: 200;
+	font-size: 24px;
+	width: 100%;
+	padding: 3px;
+	margin-top: 2px;
+	margin-right: 6px;
+	margin-bottom: 16px;
+	border: 1px solid #E5E5E5;
+	background: #FBFBFB;
+	outline: none;
+	box-shadow: inset 1px 1px 2px rgba(200, 200, 200, 0.2);
+}
+.login #backtoblog a, .login #nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    letter-spacing: 1px;
+	outline: none;
+}
+
+
+input#user_login{	background: url(../img/account-icon-white.png) no-repeat center left 15px;}
+input#user_pass{background: url(../img/password-icon-white.png) no-repeat center left 15px;}
+.login #backtoblog a:focus, .login #nav a:focus{
+	box-shadow: none;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover{
+	color: #fff;
+}
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large:hover{
+	background: #00aeef;
+	color: #fff;
+}
+
+.login form .forgetmenot {
+    float: none;
+}
+
+.login form .input, .login input[type=text] {
+	font-size: 20px;
+    width: 100%;
+    padding: 12px 15px 12px 40px;
+    margin: 2px 6px 16px 0;
+    border-radius: 0;
+    background: rgb(0, 174, 239);
+    border: 2px solid rgb(0, 174, 239);
+    color: #fff;
+}
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+	background: rgb(0, 174, 239);
+    border: 2px solid rgb(0, 174, 239);
+}
+
+input[type=checkbox]:checked:before {
+    color: #fff;
+}
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large{
+	line-height: 1;
+	margin-top: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: transparent;
+    letter-spacing: 2px;
+    height: 50px;
+    color: #fff;
+    padding: 16px 25px;
+    border: 2px solid #00aeef;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    -webkit-transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    -ms-transition: background-color .4s;
+    transition: background-color .4s;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary:focus{
+	box-shadow: none!important;
+}
+@media (max-width: 1300px){
+	#login {
+    	right: 8%;
+	}
+}
+@media (max-width: 1100px){
+	#login {
+    	right: 3%;
+	}
+}
+@media (max-width: 800px){
+	#login {
+	    width: 320px;
+    	right: 2%;
+	}
+}
+@media (max-width: 767px){
+	#login {
+	    width: 320px;
+    	right: 0%;
+		transform: translateY(-0%);
+	    -webkit-transform: translateY(-0%);
+	    -ms-transform: translateY(-0%);
+		padding: 20px 0px!important;
+		float: none;
+	}
+	.login h1 a {
+	    height: 125px;
+	    background-size: 60%;
+    	margin: 0 auto 0px;
+	}
+
+	.login form{
+		margin: 0;
+	}
+	body, html{
+		min-height: 100vh!important;
+		height: auto!important;
+	}
+}

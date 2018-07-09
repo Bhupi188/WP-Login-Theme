@@ -3,7 +3,7 @@
 defined( 'ABSPATH' ) or die();
 
 function WLT_LOGIN_CSS() {
-	wp_enqueue_style( 'wlt_login_css', plugin_dir_url( __FILE__ ) . 'css/wlt-login.css', false );
+	wp_enqueue_style( 'wlt_login_css', plugin_dir_url( __FILE__ ) . 'css/wlt-login-6.css', false );
 }
 
 // changing the logo link from wordpress.org to your site

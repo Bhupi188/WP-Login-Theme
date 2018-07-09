@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WP Login Theme
  * Version:     1.0.0
- * Plugin URI:  https://github.com/Bhupi188/WP-Login-Theme
+ * Plugin URI:  https://wordpress.org/support/plugin/wp-login-theme/
  * Author:      Bhupender Singh
  * Author URI:  http://www.spraynt.com/
  * Text Domain: wp-login-theme
@@ -14,7 +14,7 @@
  *
  * =>> Read the accompanying readme.txt file for instructions and documentation.
  * =>> Also, visit the plugin's homepage for additional information and updates.
- * =>> Or visit: https://github.com/Bhupi188/WP-Login-Theme
+ * =>> Or visit: https://wordpress.org/support/plugin/wp-login-theme/
  *
  * @package Wp_Login_Theme
  * @author  Bhupender Singh
