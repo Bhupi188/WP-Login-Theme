@@ -11,12 +11,15 @@ Stable tag: 1.0.0
 
 body {
 	background: url(../img/login-bg-three.jpg) no-repeat top center;
+	background-size: cover;
+	background-color: #e8e8ea;
 }
 .login h1 a {
 	background: url(../img/logo-three.png) no-repeat top center;
 	/* make sure to replace this! */
-	width: 200px;
-	height: 200px;
+	width: 300px!important;
+	background-size: contain!important;
+	height: 60px!important;
 	text-indent: -9999px;
 	overflow: hidden;
 	padding-bottom: 15px;
@@ -36,12 +39,12 @@ form {
     width: 407px;
 }
 .login form {
-    background: rgba(109, 140, 34, 0.6);
+    background: #e8e8ea00;
     box-shadow: none;
     border: none;
 }
 .login label {
-    color: #fff;
+    color: #006799;
     letter-spacing: 1px;
     font-size: 16px;
     margin: 0;
@@ -62,7 +65,7 @@ body form .input {
 }
 .login #backtoblog a, .login #nav a {
     text-decoration: none;
-    color: #fbfbfb;
+    color: #006799;
     font-size: 18px;
     text-align: center;
     display: block;
@@ -78,20 +81,21 @@ body form .input {
 	color: #fff;
 }
 .wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
-    height: 54px;
-    line-height: 28px;
-    padding: 0 25px 6px;
-    font-size: 22px;
-    float: none;
-    margin: 20px auto 0;
-    background: #9dca44;
-    box-shadow: none;
-    border: 1px #a3e243 solid;
-    text-shadow: none;
+	height: 50px;
+	line-height: 28px;
+	padding: 0 25px 6px;
+	font-size: 20px;
+	float: none;
+	margin: 20px auto 0;
+	background: #e8e8ea;
+	box-shadow: none;
+	border: 1px #006799 solid;
+	text-shadow: none;
+	color: #006799;
 }
 
 .wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large:hover{
-	background: #6b942e;
+	background: #006799;
 	color: #fff;
 }
 
@@ -109,6 +113,7 @@ body form .input {
     border: 1px #a3e243 solid;
 }
 .login form .input, .login form input[type=checkbox], .login input[type=text]{
-	    background: #9dca44;
-			border: 1px solid #a3e243;
+	background: #e8e8ea;
+    border: 1px solid #006799;
+	color: #006799;
 }
